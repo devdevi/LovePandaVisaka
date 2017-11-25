@@ -1,0 +1,97 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	color: white;
+	background-color: #f48d68;
+	
+}
+.panda{
+	text-align: right;
+	padding: 3em;
+}
+.panda h1{
+	font-size: 3em;
+}
+.panda p{
+	line-height: 1em;
+	text-align: right;
+	font-weight: 100;
+	padding-top: 1em;
+}
+
+
+.firstPanda{
+	background-image: url(../img/uno.jpg);
+	background-position: center;
+	padding: 15em;
+	background-size: cover;
+	-webkit-filter: grayscale(1);
+    filter: grayscale(1);
+
+}
+.secondPanda{
+	background-image: url(../img/dos.jpg);
+	background-position: center;
+	padding: 20em;
+	background-size: cover;
+	-webkit-filter: grayscale(1);
+    filter: grayscale(1);
+
+}
+.thirdPanda{
+	background-image: url(../img/tres.jpg);
+	background-position: center;
+	padding: 15em;
+	background-size: cover;
+	-webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+/*AYuda aqui por que tengo que poner tando padding para poder 
+situar el div en el centro HELP!!!!*/
+
+.cajaTexto{
+	background-color: #abe188;
+	padding: 5em;
+    padding-left: 23em;
+    padding-right: 23em;
+    border-top: 1em solid #f48d68;
+    border-bottom: 1em solid #f48d68;
+    text-align: center;
+    text-align: justify-all;
+}
+
+.boxText{
+	background-color: #f48d68;
+	text-align: center;
+}
+.boxText p{
+	padding: 1.5em;
+	padding-top: 0;
+	font-weight: 100;
+}
+.boxText h3{
+	padding: 1em;
+}
+.boxImg{
+	background-color: #abe188;
+	padding: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
+    border-top: 1em solid #f48d68;
+    border-bottom: 1em solid #f48d68;
+    text-align: center;
+}
+.boxImg h2{
+	font-size: 3em;
+}
+
+.boxImg img{
+	border:.5em solid white;
+	margin-top:  1em;
+}
+.footPage {
+	text-align: right;
+	padding-top:1em;
+	font-weight: bold;
+	font-size: .8em;
+}
